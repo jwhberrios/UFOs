@@ -48,4 +48,44 @@ d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the table when the page loads
 buildTable(tableData);
+<div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+
+          </div>
+          <div class="col-md-9">
+          
+          <form>
+              <p>Filter Search</p>
+            </form>
+
+              <li class="list-group-item">
+               <label for="date">Enter Date</label>
+                <input type="text" placeholder="1/10/2010" id="datetime" />
+                </li>
+
+                  <li class="list-group-item">
+                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                  </li>
+
+                  <div class="col-md-9">
+                    <table class="table table-striped">
+                     <thead>
+                       <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Country</th>
+                        <th>Shape</th>
+                        <th>Duration</th>
+                        <th>Comments</th>
+                      </tr>
+                     </thead>
+                   <tbody></tbody>
+                </table>
+              </div>
+          </div>
+        </div>
+      </div>
+
 
