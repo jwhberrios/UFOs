@@ -26,66 +26,26 @@ function buildTable(data) {
 
 // Set up handle click to filter data by date
 function handleClick() {
-    // Grab the datetime value from the filter
-    let date = d3.select("#datetime").property("value");
-    let filteredData = tableData;
+  // Grab the datetime value from the filter
+  let date = d3.select("#datetime").property("value");
+  let filteredData = tableData;
   
-     // Check to see if a date was entered and filter the
-    // data using that date.
-    if (date) {
-      // Apply `filter` to the table data to only keep the
-      // rows where the `datetime` value matches the filter value
-      filteredData = filteredData.filter(row => row.datetime === date);
-    }
-  
-     // Rebuild the table using the filtered data
-    // @NOTE: If no date was entered, then filteredData will
-    // just be the original tableData.
-    buildTable(filteredData);
+  // Check to see if a date was entered and filter the
+  // data using that date.
+  if (date) {
+    // Apply `filter` to the table data to only keep the
+    // rows where the `datetime` value matches the filter value
+    filteredData = filteredData.filter(row => row.datetime === date);
   }
-  // Attach an event to listen for the form button
+  
+  // Rebuild the table using the filtered data
+  // @NOTE: If no date was entered, then filteredData will
+  // just be the original tableData.
+  buildTable(filteredData); 
+}
+
+// Attach an event to listen for the form button
 d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the table when the page loads
 buildTable(tableData);
-<div class="container-fluid">
-        <div class="row">
-          <div class="col-md-3">
-
-          </div>
-          <div class="col-md-9">
-          
-          <form>
-              <p>Filter Search</p>
-            </form>
-
-              <li class="list-group-item">
-               <label for="date">Enter Date</label>
-                <input type="text" placeholder="1/10/2010" id="datetime" />
-                </li>
-
-                  <li class="list-group-item">
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-                  </li>
-
-                  <div class="col-md-9">
-                    <table class="table table-striped">
-                     <thead>
-                       <tr>
-                        <th>Date</th>
-                        <th>City</th>
-                        <th>State</th>
-                        <th>Country</th>
-                        <th>Shape</th>
-                        <th>Duration</th>
-                        <th>Comments</th>
-                      </tr>
-                     </thead>
-                   <tbody></tbody>
-                </table>
-              </div>
-          </div>
-        </div>
-      </div>
-
-
