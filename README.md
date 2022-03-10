@@ -11,6 +11,6 @@ Figure 1.
 ![Welcome menu of website]("C:\Users\16462\Desktop\BootCamp\Module-11\UFOs\images\UFO_website.png")
 
 Figure 2.
-![filter table]("C:\Users\16462\Desktop\BootCamp\Module-11\UFOs\images\Filter_table.png")
+![Filter table]("C:\Users\16462\Desktop\BootCamp\Module-11\UFOs\images\Filter_table.png")
 
 ### Summary
