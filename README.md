@@ -8,9 +8,9 @@ The purpose of this analysis was to find UFO sighting information based on the f
 With the UFO sightings data connected to the main webpage to search, the website (Figure 1), which consists of an interactive table, will display search results after the website visitor inputs specific search criteria on the left side of the website (Figure 2).
 
 Figure 1.
-![UFO_website](C:\Users\16462\Desktop\BootCamp\Module-11\UFOs\images\UFO_website.png)
+![UFO_website](UFO_website.png)
 
 Figure 2.
-![Filter_table](C:\Users\16462\Desktop\BootCamp\Module-11\UFOs\images\Filter_table.png)
+![Filter_table](Filter_table.png)
 
 ### Summary
