@@ -14,3 +14,6 @@ Figure 2.
 ![Filter_table](https://github.com/jwhberrios/UFOs/blob/main/images/Filter_table.png)
 
 #### Summary
+The website is a good start with sifting through UFO sighting data linked to the website. However, there is a limitation to this setup in that the data is limited to the database used, which is limited to the year 2010 and in the United States.
+One recommendation to address this limitation is to expand the UFO sighting data to multiple years within the U.S and in other countries as well.
+A second recommendation is to make the search criteria more focused by perhaps offering options in the search rather than leaving it open to the user to type in the details. This will maximize the likelihood of printing search results onto the table.
