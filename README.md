@@ -11,7 +11,7 @@ Figure 1.
 ![UFO_website](https://github.com/jwhberrios/UFOs/blob/main/static/images/UFO_website.png)
 
 Figure 2.
-![Filter_table](https://github.com/jwhberrios/UFOs/blob/main/images/Filter_table.png)
+![Filter_table](https://github.com/jwhberrios/UFOs/blob/main/static/images/Filter_table.png)
 
 #### Summary
 The website is a good start with sifting through UFO sighting data linked to the website. However, there is a limitation to this setup in that the data is limited to the database used, which is limited to the year 2010 and in the United States.
