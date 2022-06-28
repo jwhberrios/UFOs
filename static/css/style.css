@@ -3,7 +3,7 @@ body {
   }
 
 .jumbotron {
-    background-image: asset-url("../images/nasa.jpg");
+    background-image: url("../images/nasa.jpg");
     background-size: cover;
     text-align: center;
   }
