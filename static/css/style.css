@@ -3,7 +3,7 @@ body {
   }
 
 .jumbotron {
-    background-image: url("../images/nasa.jpg");
+    background-image: url("https://github.com/jwhberrios/UFOs/blob/main/images/nasa.jpg");
     background-size: cover;
     text-align: center;
   }
